@@ -1,0 +1,395 @@
+2025-04-08 17:43:22,693 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores//e3a2324a7019b06eec817750038423a52d83a3341cb991b86205703b02cd843e
+2025-04-08 17:43:22,695 - PathRAG - INFO - Creating working directory ./storage/graph_stores//e3a2324a7019b06eec817750038423a52d83a3341cb991b86205703b02cd843e
+2025-04-08 17:43:22,697 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-08 17:43:22,700 - PathRAG - INFO - Load KV full_docs with 0 data
+2025-04-08 17:43:22,702 - PathRAG - INFO - Load KV text_chunks with 0 data
+2025-04-08 17:49:26,543 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores//e3a2324a7019b06eec817750038423a52d83a3341cb991b86205703b02cd843e
+2025-04-08 17:49:26,547 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-08 17:49:26,549 - PathRAG - INFO - Load KV full_docs with 0 data
+2025-04-08 17:49:26,554 - PathRAG - INFO - Load KV text_chunks with 0 data
+2025-04-08 17:49:45,207 - PathRAG - INFO - Creating a new event loop in main thread.
+2025-04-08 17:49:45,210 - PathRAG - INFO - [New Docs] inserting 1 docs
+2025-04-08 17:49:47,824 - PathRAG - INFO - [New Chunks] inserting 2 chunks
+2025-04-08 17:49:47,824 - PathRAG - INFO - Inserting 2 vectors to chunks
+2025-04-08 17:49:49,082 - PathRAG - INFO - [Entity Extraction]...
+2025-04-08 17:50:54,227 - PathRAG - INFO - Inserting entities into storage...
+2025-04-08 17:50:54,245 - PathRAG - INFO - Inserting relationships into storage...
+2025-04-08 17:50:54,254 - PathRAG - INFO - Inserting 47 vectors to entities
+2025-04-08 17:50:58,470 - PathRAG - INFO - Inserting 16 vectors to relationships
+2025-04-08 17:51:01,148 - PathRAG - INFO - Writing graph with 47 nodes, 16 edges
+2025-04-08 18:55:56,272 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores//90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-08 18:55:56,274 - PathRAG - INFO - Creating working directory ./storage/graph_stores//90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-08 18:55:56,278 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-08 18:55:56,280 - PathRAG - INFO - Load KV full_docs with 0 data
+2025-04-08 18:55:56,282 - PathRAG - INFO - Load KV text_chunks with 0 data
+2025-04-08 18:58:02,650 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores//90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-08 18:58:02,651 - PathRAG - INFO - Creating working directory ./storage/graph_stores//90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-08 18:58:02,655 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-08 18:58:02,658 - PathRAG - INFO - Load KV full_docs with 0 data
+2025-04-08 18:58:02,660 - PathRAG - INFO - Load KV text_chunks with 0 data
+2025-04-08 18:58:39,128 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores//90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-08 18:58:39,131 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-08 18:58:39,132 - PathRAG - INFO - Load KV full_docs with 0 data
+2025-04-08 18:58:39,133 - PathRAG - INFO - Load KV text_chunks with 0 data
+2025-04-08 19:01:18,514 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores//90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-08 19:01:18,517 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-08 19:01:18,519 - PathRAG - INFO - Load KV full_docs with 0 data
+2025-04-08 19:01:18,520 - PathRAG - INFO - Load KV text_chunks with 0 data
+2025-04-08 19:01:18,821 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores//90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-08 19:01:18,824 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-08 19:01:18,824 - PathRAG - INFO - Load KV full_docs with 0 data
+2025-04-08 19:01:18,825 - PathRAG - INFO - Load KV text_chunks with 0 data
+2025-04-08 19:02:50,104 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores//90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-08 19:02:50,107 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-08 19:02:50,109 - PathRAG - INFO - Load KV full_docs with 0 data
+2025-04-08 19:02:50,110 - PathRAG - INFO - Load KV text_chunks with 0 data
+2025-04-08 19:07:03,386 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores//90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-08 19:07:03,388 - PathRAG - INFO - Creating working directory ./storage/graph_stores//90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-08 19:07:03,390 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-08 19:07:03,393 - PathRAG - INFO - Load KV full_docs with 0 data
+2025-04-08 19:07:05,200 - PathRAG - INFO - Load KV text_chunks with 0 data
+2025-04-08 19:07:05,474 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores//90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-08 19:07:05,477 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-08 19:07:05,479 - PathRAG - INFO - Load KV full_docs with 0 data
+2025-04-08 19:07:05,481 - PathRAG - INFO - Load KV text_chunks with 0 data
+2025-04-08 19:07:33,756 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-08 19:07:33,757 - PathRAG - INFO - Creating working directory ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-08 19:07:33,759 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-08 19:07:33,762 - PathRAG - INFO - Load KV full_docs with 0 data
+2025-04-08 19:07:33,765 - PathRAG - INFO - Load KV text_chunks with 0 data
+2025-04-08 19:16:14,566 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores//7e8be0b942385a3d3c2599bfbd7da7eb5cc004bd4715bf9906dddfc71c8ff0be
+2025-04-08 19:16:14,567 - PathRAG - INFO - Creating working directory ./storage/graph_stores//7e8be0b942385a3d3c2599bfbd7da7eb5cc004bd4715bf9906dddfc71c8ff0be
+2025-04-08 19:16:14,570 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-08 19:16:14,572 - PathRAG - INFO - Load KV full_docs with 0 data
+2025-04-08 19:16:14,575 - PathRAG - INFO - Load KV text_chunks with 0 data
+2025-04-08 19:16:54,201 - PathRAG - INFO - Creating a new event loop in main thread.
+2025-04-08 19:16:54,204 - PathRAG - INFO - [New Docs] inserting 1 docs
+2025-04-08 19:16:55,357 - PathRAG - INFO - [New Chunks] inserting 1 chunks
+2025-04-08 19:16:55,357 - PathRAG - INFO - Inserting 1 vectors to chunks
+2025-04-08 19:16:56,511 - PathRAG - INFO - [Entity Extraction]...
+2025-04-08 19:17:51,401 - PathRAG - INFO - Inserting entities into storage...
+2025-04-08 19:17:51,410 - PathRAG - INFO - Inserting relationships into storage...
+2025-04-08 19:17:51,416 - PathRAG - INFO - Inserting 17 vectors to entities
+2025-04-08 19:17:54,481 - PathRAG - INFO - Inserting 12 vectors to relationships
+2025-04-08 19:17:57,695 - PathRAG - INFO - Writing graph with 17 nodes, 12 edges
+2025-04-08 19:31:31,172 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/7e8be0b942385a3d3c2599bfbd7da7eb5cc004bd4715bf9906dddfc71c8ff0be
+2025-04-08 19:31:31,174 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-08 19:31:31,176 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-08 19:31:31,179 - PathRAG - INFO - Load KV text_chunks with 1 data
+2025-04-08 19:31:31,188 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/7e8be0b942385a3d3c2599bfbd7da7eb5cc004bd4715bf9906dddfc71c8ff0be/graph_chunk_entity_relation.graphml with 17 nodes, 12 edges
+2025-04-08 19:31:35,197 - PathRAG - INFO - Creating a new event loop in main thread.
+2025-04-08 19:31:35,201 - PathRAG - WARNING - All docs are already in the storage
+2025-04-08 20:21:57,227 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/58919acc8fcca08da07ad1c7fa0fabeacdefc2dbde70e444a84e7140230e153a
+2025-04-08 20:21:57,229 - PathRAG - INFO - Creating working directory ./storage/graph_stores/58919acc8fcca08da07ad1c7fa0fabeacdefc2dbde70e444a84e7140230e153a
+2025-04-08 20:21:57,234 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-08 20:21:57,236 - PathRAG - INFO - Load KV full_docs with 0 data
+2025-04-08 20:21:57,237 - PathRAG - INFO - Load KV text_chunks with 0 data
+2025-04-08 20:22:51,537 - PathRAG - INFO - Creating a new event loop in main thread.
+2025-04-08 20:22:51,541 - PathRAG - INFO - [New Docs] inserting 1 docs
+2025-04-08 20:22:51,549 - PathRAG - INFO - [New Chunks] inserting 2 chunks
+2025-04-08 20:22:51,550 - PathRAG - INFO - Inserting 2 vectors to chunks
+2025-04-08 20:22:52,554 - PathRAG - INFO - [Entity Extraction]...
+2025-04-08 20:23:48,332 - PathRAG - INFO - Inserting entities into storage...
+2025-04-08 20:23:48,344 - PathRAG - INFO - Inserting relationships into storage...
+2025-04-08 20:23:48,352 - PathRAG - INFO - Inserting 31 vectors to entities
+2025-04-08 20:23:53,047 - PathRAG - INFO - Inserting 16 vectors to relationships
+2025-04-08 20:23:55,747 - PathRAG - INFO - Writing graph with 31 nodes, 16 edges
+2025-04-08 20:37:04,713 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-08 20:37:04,716 - PathRAG - INFO - Creating working directory ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-08 20:37:04,723 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-08 20:37:04,727 - PathRAG - INFO - Load KV full_docs with 0 data
+2025-04-08 20:37:04,731 - PathRAG - INFO - Load KV text_chunks with 0 data
+2025-04-08 20:37:07,385 - PathRAG - INFO - Creating a new event loop in main thread.
+2025-04-08 20:37:07,391 - PathRAG - INFO - [New Docs] inserting 1 docs
+2025-04-08 20:37:07,413 - PathRAG - INFO - [New Chunks] inserting 2 chunks
+2025-04-08 20:37:07,415 - PathRAG - INFO - Inserting 2 vectors to chunks
+2025-04-08 20:37:08,562 - PathRAG - INFO - [Entity Extraction]...
+2025-04-08 20:38:00,049 - PathRAG - INFO - Inserting entities into storage...
+2025-04-08 20:38:00,068 - PathRAG - INFO - Inserting relationships into storage...
+2025-04-08 20:38:00,088 - PathRAG - INFO - Inserting 31 vectors to entities
+2025-04-08 20:38:03,989 - PathRAG - INFO - Inserting 17 vectors to relationships
+2025-04-08 20:38:06,274 - PathRAG - INFO - Writing graph with 31 nodes, 17 edges
+2025-04-08 20:38:54,044 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-08 20:38:54,049 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-08 20:38:54,053 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-08 20:38:54,055 - PathRAG - INFO - Load KV text_chunks with 2 data
+2025-04-08 20:38:54,067 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d/graph_chunk_entity_relation.graphml with 31 nodes, 17 edges
+2025-04-09 13:18:24,925 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-09 13:18:24,932 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 13:18:24,934 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 13:18:24,936 - PathRAG - INFO - Load KV text_chunks with 2 data
+2025-04-09 13:18:24,953 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d/graph_chunk_entity_relation.graphml with 31 nodes, 17 edges
+2025-04-09 13:18:35,485 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-09 13:18:35,488 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 13:18:35,491 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 13:18:35,493 - PathRAG - INFO - Load KV text_chunks with 2 data
+2025-04-09 13:18:35,499 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d/graph_chunk_entity_relation.graphml with 31 nodes, 17 edges
+2025-04-09 13:30:01,724 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-09 13:30:01,727 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 13:30:01,729 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 13:30:01,732 - PathRAG - INFO - Load KV text_chunks with 2 data
+2025-04-09 13:30:01,741 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d/graph_chunk_entity_relation.graphml with 31 nodes, 17 edges
+2025-04-09 13:30:49,507 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-09 13:30:49,510 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 13:30:49,513 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 13:30:49,516 - PathRAG - INFO - Load KV text_chunks with 2 data
+2025-04-09 13:30:49,523 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d/graph_chunk_entity_relation.graphml with 31 nodes, 17 edges
+2025-04-09 13:31:47,258 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-09 13:31:47,262 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 13:31:47,265 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 13:31:47,268 - PathRAG - INFO - Load KV text_chunks with 2 data
+2025-04-09 13:31:47,277 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d/graph_chunk_entity_relation.graphml with 31 nodes, 17 edges
+2025-04-09 13:33:33,896 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-09 13:33:33,898 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 13:33:33,900 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 13:33:33,903 - PathRAG - INFO - Load KV text_chunks with 2 data
+2025-04-09 13:33:33,911 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d/graph_chunk_entity_relation.graphml with 31 nodes, 17 edges
+2025-04-09 14:14:04,798 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-09 14:14:04,802 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 14:14:04,805 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 14:14:04,809 - PathRAG - INFO - Load KV text_chunks with 2 data
+2025-04-09 14:14:04,823 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d/graph_chunk_entity_relation.graphml with 31 nodes, 17 edges
+2025-04-09 14:14:31,315 - PathRAG - INFO - Creating a new event loop in main thread.
+2025-04-09 14:14:35,766 - PathRAG - INFO - kw_prompt result:
+2025-04-09 14:14:39,101 - PathRAG - INFO - Local query uses 14 entites, 15 relations, 2 text units
+2025-04-09 14:14:40,017 - PathRAG - INFO - Global query uses 13 entites, 11 relations, 2 text units
+2025-04-09 14:19:28,702 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-09 14:19:28,705 - PathRAG - INFO - Load KV llm_response_cache with 1 data
+2025-04-09 14:19:28,707 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 14:19:28,709 - PathRAG - INFO - Load KV text_chunks with 2 data
+2025-04-09 14:19:28,715 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d/graph_chunk_entity_relation.graphml with 31 nodes, 17 edges
+2025-04-09 14:19:53,922 - PathRAG - INFO - Creating a new event loop in main thread.
+2025-04-09 14:19:56,933 - PathRAG - INFO - kw_prompt result:
+2025-04-09 14:19:57,581 - PathRAG - INFO - Local query uses 12 entites, 14 relations, 2 text units
+2025-04-09 14:19:59,208 - PathRAG - INFO - Global query uses 17 entites, 14 relations, 2 text units
+2025-04-09 14:32:50,985 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-09 14:32:50,988 - PathRAG - INFO - Load KV llm_response_cache with 1 data
+2025-04-09 14:32:50,990 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 14:32:50,992 - PathRAG - INFO - Load KV text_chunks with 2 data
+2025-04-09 14:32:50,998 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d/graph_chunk_entity_relation.graphml with 31 nodes, 17 edges
+2025-04-09 14:33:15,335 - PathRAG - INFO - Creating a new event loop in main thread.
+2025-04-09 14:33:18,480 - PathRAG - INFO - kw_prompt result:
+2025-04-09 14:33:19,298 - PathRAG - INFO - Local query uses 10 entites, 7 relations, 2 text units
+2025-04-09 14:33:20,403 - PathRAG - INFO - Global query uses 19 entites, 15 relations, 2 text units
+2025-04-09 14:34:59,935 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-09 14:34:59,939 - PathRAG - INFO - Load KV llm_response_cache with 1 data
+2025-04-09 14:34:59,941 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 14:34:59,944 - PathRAG - INFO - Load KV text_chunks with 2 data
+2025-04-09 14:34:59,951 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d/graph_chunk_entity_relation.graphml with 31 nodes, 17 edges
+2025-04-09 14:35:14,968 - PathRAG - INFO - Creating a new event loop in main thread.
+2025-04-09 14:35:18,193 - PathRAG - INFO - kw_prompt result:
+2025-04-09 14:35:19,139 - PathRAG - INFO - Local query uses 13 entites, 15 relations, 2 text units
+2025-04-09 14:35:20,198 - PathRAG - INFO - Global query uses 19 entites, 15 relations, 2 text units
+2025-04-09 14:43:05,406 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-09 14:43:05,412 - PathRAG - INFO - Load KV llm_response_cache with 1 data
+2025-04-09 14:43:05,415 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 14:43:05,417 - PathRAG - INFO - Load KV text_chunks with 2 data
+2025-04-09 14:43:05,423 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d/graph_chunk_entity_relation.graphml with 31 nodes, 17 edges
+2025-04-09 14:43:23,421 - PathRAG - INFO - kw_prompt result:
+2025-04-09 14:43:24,151 - PathRAG - INFO - Local query uses 10 entites, 7 relations, 2 text units
+2025-04-09 14:43:25,474 - PathRAG - INFO - Global query uses 17 entites, 14 relations, 2 text units
+2025-04-09 14:54:40,365 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-09 14:54:40,368 - PathRAG - INFO - Load KV llm_response_cache with 1 data
+2025-04-09 14:54:40,370 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 14:54:40,373 - PathRAG - INFO - Load KV text_chunks with 2 data
+2025-04-09 14:54:40,378 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d/graph_chunk_entity_relation.graphml with 31 nodes, 17 edges
+2025-04-09 14:55:53,798 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-09 14:55:53,800 - PathRAG - INFO - Load KV llm_response_cache with 1 data
+2025-04-09 14:55:53,802 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 14:55:53,803 - PathRAG - INFO - Load KV text_chunks with 2 data
+2025-04-09 14:55:53,809 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d/graph_chunk_entity_relation.graphml with 31 nodes, 17 edges
+2025-04-09 14:56:08,352 - PathRAG - INFO - kw_prompt result:
+2025-04-09 14:56:09,262 - PathRAG - INFO - Local query uses 6 entites, 1 relations, 2 text units
+2025-04-09 14:56:10,161 - PathRAG - INFO - Global query uses 11 entites, 8 relations, 2 text units
+2025-04-09 15:06:08,410 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-09 15:06:08,412 - PathRAG - INFO - Load KV llm_response_cache with 1 data
+2025-04-09 15:06:08,414 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 15:06:08,415 - PathRAG - INFO - Load KV text_chunks with 2 data
+2025-04-09 15:06:08,421 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d/graph_chunk_entity_relation.graphml with 31 nodes, 17 edges
+2025-04-09 17:12:58,291 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-09 17:12:58,297 - PathRAG - INFO - Load KV llm_response_cache with 1 data
+2025-04-09 17:12:58,299 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 17:12:58,302 - PathRAG - INFO - Load KV text_chunks with 2 data
+2025-04-09 17:12:58,307 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d/graph_chunk_entity_relation.graphml with 31 nodes, 17 edges
+2025-04-09 17:13:54,697 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-09 17:13:54,701 - PathRAG - INFO - Load KV llm_response_cache with 1 data
+2025-04-09 17:13:54,703 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 17:13:54,706 - PathRAG - INFO - Load KV text_chunks with 2 data
+2025-04-09 17:13:54,714 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d/graph_chunk_entity_relation.graphml with 31 nodes, 17 edges
+2025-04-09 17:14:27,213 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-09 17:14:27,215 - PathRAG - INFO - Load KV llm_response_cache with 1 data
+2025-04-09 17:14:27,217 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 17:14:27,219 - PathRAG - INFO - Load KV text_chunks with 2 data
+2025-04-09 17:14:27,223 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d/graph_chunk_entity_relation.graphml with 31 nodes, 17 edges
+2025-04-09 17:14:51,908 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d
+2025-04-09 17:14:51,911 - PathRAG - INFO - Load KV llm_response_cache with 1 data
+2025-04-09 17:14:51,913 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 17:14:51,916 - PathRAG - INFO - Load KV text_chunks with 2 data
+2025-04-09 17:14:51,925 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/38e3be3b4c772adba5d8eba6382960c8af244d77df63f867507e6c80d895a25d/graph_chunk_entity_relation.graphml with 31 nodes, 17 edges
+2025-04-09 17:22:01,794 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 17:22:01,795 - PathRAG - INFO - Creating working directory ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 17:22:01,797 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 17:22:01,798 - PathRAG - INFO - Load KV full_docs with 0 data
+2025-04-09 17:22:01,799 - PathRAG - INFO - Load KV text_chunks with 0 data
+2025-04-09 17:22:01,809 - PathRAG - INFO - [New Docs] inserting 1 docs
+2025-04-09 17:22:01,848 - PathRAG - INFO - [New Chunks] inserting 22 chunks
+2025-04-09 17:22:01,849 - PathRAG - INFO - Inserting 22 vectors to chunks
+2025-04-09 17:22:04,683 - PathRAG - INFO - [Entity Extraction]...
+2025-04-09 17:24:50,252 - PathRAG - INFO - Inserting entities into storage...
+2025-04-09 17:24:50,371 - PathRAG - INFO - Inserting relationships into storage...
+2025-04-09 17:24:50,424 - PathRAG - INFO - Inserting 312 vectors to entities
+2025-04-09 17:25:08,212 - PathRAG - INFO - Inserting 197 vectors to relationships
+2025-04-09 17:25:20,438 - PathRAG - INFO - Writing graph with 315 nodes, 197 edges
+2025-04-09 17:30:57,637 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 17:30:57,640 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 17:30:57,642 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 17:30:57,645 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-09 17:30:57,680 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-09 17:33:00,887 - PathRAG - INFO - kw_prompt result:
+2025-04-09 17:33:02,708 - PathRAG - INFO - Local query uses 40 entites, 6 relations, 3 text units
+2025-04-09 17:33:03,902 - PathRAG - INFO - Global query uses 45 entites, 40 relations, 3 text units
+2025-04-09 17:37:30,840 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 17:37:30,843 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 17:37:30,846 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 17:37:30,850 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-09 17:37:30,884 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-09 17:47:44,044 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 17:47:44,047 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 17:47:44,049 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 17:47:44,051 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-09 17:47:44,083 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-09 17:50:09,946 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 17:50:09,948 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 17:50:09,951 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 17:50:09,955 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-09 17:50:09,986 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-09 18:00:47,980 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 18:00:47,982 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 18:00:47,985 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 18:00:47,988 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-09 18:00:48,027 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-09 18:03:27,329 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 18:03:27,332 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 18:03:27,335 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 18:03:27,339 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-09 18:03:27,399 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-09 18:03:34,354 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 18:03:34,356 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 18:03:34,358 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 18:03:34,360 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-09 18:03:34,390 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-09 18:04:26,945 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 18:04:26,948 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 18:04:26,951 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 18:04:26,954 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-09 18:04:26,990 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-09 18:05:40,265 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 18:05:40,267 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 18:05:40,271 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 18:05:40,274 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-09 18:05:40,310 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-09 18:27:38,111 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 18:27:38,115 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 18:27:38,117 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 18:27:38,124 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-09 18:27:38,167 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-09 18:31:34,919 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 18:31:34,923 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 18:31:34,926 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 18:31:34,929 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-09 18:31:34,964 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-09 18:37:13,986 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 18:37:13,990 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 18:37:13,992 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 18:37:13,994 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-09 18:37:14,033 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-09 18:43:52,849 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 18:43:52,852 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 18:43:52,854 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 18:43:52,857 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-09 18:43:52,907 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-09 18:48:09,045 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 18:48:09,048 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 18:48:09,052 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 18:48:09,055 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-09 18:48:09,092 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-09 19:08:40,966 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 19:08:40,970 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 19:08:40,972 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 19:08:40,975 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-09 19:08:41,014 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-09 19:14:48,149 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 19:14:48,152 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 19:14:48,155 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 19:14:48,158 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-09 19:14:48,193 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-09 19:28:27,347 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 19:28:27,351 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 19:28:27,354 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 19:28:27,360 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-09 19:28:27,395 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-09 19:29:25,133 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-09 19:29:25,136 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-09 19:29:25,139 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-09 19:29:25,142 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-09 19:29:25,177 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-10 13:20:43,712 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-10 13:20:43,718 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-10 13:20:43,721 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-10 13:20:43,726 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-10 13:20:43,767 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-10 13:21:23,851 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-10 13:21:23,854 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-10 13:21:23,857 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-10 13:21:23,860 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-10 13:21:23,899 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-10 13:21:25,147 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-10 13:21:25,152 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-10 13:21:25,154 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-10 13:21:25,156 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-10 13:21:25,188 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-10 13:21:31,819 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-10 13:21:31,822 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-10 13:21:31,824 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-10 13:21:31,828 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-10 13:21:31,860 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-10 13:39:16,068 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-10 13:39:16,070 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-10 13:39:16,073 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-10 13:39:16,075 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-10 13:39:16,109 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-10 13:42:08,961 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-10 13:42:08,964 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-10 13:42:08,967 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-10 13:42:08,970 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-10 13:42:09,004 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-10 13:42:27,413 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-10 13:42:27,416 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-10 13:42:27,419 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-10 13:42:27,422 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-10 13:42:27,464 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-10 13:42:36,911 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-10 13:42:36,913 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-10 13:42:36,915 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-10 13:42:36,918 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-10 13:42:36,950 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-10 15:45:45,302 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-10 15:45:45,306 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-10 15:45:45,309 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-10 15:45:45,311 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-10 15:45:45,349 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-10 15:48:56,884 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-10 15:48:56,887 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-10 15:48:56,891 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-10 15:48:56,893 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-10 15:48:56,935 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-10 15:50:49,290 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-10 15:50:49,292 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-10 15:50:49,295 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-10 15:50:49,301 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-10 15:50:49,341 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-10 16:59:00,193 - PathRAG - INFO - Logger initialized for working directory: ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-10 16:59:00,195 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-10 16:59:00,197 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-10 16:59:00,200 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-10 16:59:00,234 - PathRAG - INFO - Loaded graph from ./storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
