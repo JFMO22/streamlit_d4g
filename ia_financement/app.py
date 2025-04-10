@@ -379,8 +379,7 @@ def main():
             **Conseil**: Changer de reranker en priorité si la réponse produite n'est pas satisfaisante, et éviter de dépasser top K 14
                                         
         """)
-        
-        "st.session_state", st.session_state
+                
 
         # rappel du reranker
         last_reranker=""
@@ -402,7 +401,7 @@ def main():
             top_k_docs_selected= top_k_user_input.number_input(label="Top K documents", key="top_k_user_input", value=st.session_state["top_k_docs_user"], min_value=4, max_value=18)
             
         else:
-            "avant", st.session_state["top_k_docs_user"]
+            
             top_k_docs_selected= top_k_user_input.number_input(label="Top K documents", key="top_k_user_input",  value=10, min_value=4, max_value=18)
             
             
