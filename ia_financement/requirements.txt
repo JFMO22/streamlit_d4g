@@ -35,6 +35,7 @@ streamlit
 faiss-cpu
 sentence-transformers # pour reranker
 pypdf==5.4.0
+unstructured
 langchain
 langchain-openai
 langchain-unstructured

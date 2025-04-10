@@ -397,7 +397,7 @@ def main():
         # rappel du top K
         top_k_user_input=st.empty()
         if 'top_k_docs_user' in st.session_state:                        
-            "avant", st.session_state["top_k_docs_user"]
+            # "avant", st.session_state["top_k_docs_user"]
             top_k_docs_selected= top_k_user_input.number_input(label="Top K documents", key="top_k_user_input", value=st.session_state["top_k_docs_user"], min_value=4, max_value=18)
             
         else:
@@ -406,7 +406,7 @@ def main():
             
             
         st.session_state["top_k_docs_user"]=top_k_docs_selected
-        "après", st.session_state["top_k_docs_user"]
+        # "après", st.session_state["top_k_docs_user"]
 
         change_hybridrag_params=st.button("Mise à jour", key="update_hybrid_rag_params")
 
