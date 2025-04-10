@@ -159,9 +159,8 @@ def main():
         if uploaded_doc is not None and doc_named_user!="" and btn_new_doc:
             st.session_state[f"uploaded_{doc_category}"]=uploaded_doc
             with st.spinner("Wait for it...", show_time=True):
-                messages=process_new_doc(uploaded_doc, doc_named_user, doc_category)
                 
-                for message in messages:
+                for message in process_new_doc(uploaded_doc, doc_named_user, doc_category):
                     st.markdown(message, unsafe_allow_html=True)
 
         #===============================================
@@ -205,7 +204,12 @@ def main():
         st.session_state["selected_page"]=page
         st.write("### Guide")
         st.write("Faire des millions :)")
-
+        st.write("L'app ultime !")
+        st.markdown("""
+            Chargez des formulaires ):
+                    
+            Récupérez des billets verts (: $$$
+        """)
 
 
 
