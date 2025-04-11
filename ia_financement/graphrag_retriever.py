@@ -269,7 +269,7 @@ def load_knowledgeGraph_vis():
 
 
     # load existing hashes
-    file_path="graphrag_hashes.json"
+    file_path=WORKING_DIR/"graphrag_hashes.json"
     
     def load_hashes(file_path=file_path):
         if os.path.exists(file_path):
