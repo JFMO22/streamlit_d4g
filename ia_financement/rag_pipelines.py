@@ -22,7 +22,7 @@ import json
 from pydantic import BaseModel, Field
 import string
 import datetime
-# import dotenv
+import dotenv
 
 # dotenv.load_dotenv(".env")
 

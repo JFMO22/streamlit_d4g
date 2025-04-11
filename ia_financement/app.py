@@ -4,6 +4,7 @@ import nest_asyncio
 import streamlit as st
 from streamlit.components.v1 import iframe, components
 from rag_pipelines import process_new_doc, process_existing_doc, QA_pipeline, update_hybrid_rag_wrapper
+from graphrag_retriever import load_knowledgeGraph_vis
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from io import StringIO
@@ -13,6 +14,7 @@ import pandas as pd
 import json
 import types
 
+st.set_page_config(layout="wide")
 
 #=========corrections incompatibilités streamlit / event loop
 #=============== nécessaire pour streaming des réponses graphRAG
@@ -435,10 +437,21 @@ def main():
         # </a>
         # """, unsafe_allow_html=True)
         
+        # Get the directory of the current script (e.g., app.py)
         
-        with open("static/knowledge_graph.html", "r", encoding="utf-8") as file:
-            html_content = file.read()
-        st.components.v1.html(html_content, height=800, scrolling=True)
+        # cas où aucun PP n'est chargé
+        
+
+        for feedback in load_knowledgeGraph_vis():
+            if isinstance(feedback, str):
+                st.markdown(feedback)
+            elif isinstance(feedback, tuple):
+                graphvis_path, graphvis_name=feedback
+                
+                st.markdown(f"Document: {graphvis_name}")
+                with open(graphvis_path, "r", encoding="utf-8") as file:
+                    html_content = file.read()
+                st.components.v1.html(html_content, height=1200, scrolling=True)
 
 
 

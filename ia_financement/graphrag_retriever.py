@@ -15,7 +15,10 @@ import json
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
-# import dotenv
+import networkx as nx
+from pyvis.network import Network
+
+import dotenv
 
 # dotenv.load_dotenv(".env")
 
@@ -119,11 +122,11 @@ def create_graphdb(pages: list, doc_name: str, doc_title: str, doc_category: str
             
             # init store pipelines
             graphrag_pipeline_args[f"rag_{doc_category}"]={}
-
+            graphrag_pipeline_args[f"hash"]=hash_text
             
             # init pathrag
             rag = PathRAG(
-                working_dir=f'{WORKING_DIR}{hash_text}',
+                working_dir=f'{WORKING_DIR}/{hash_text}',
                 llm_model_func=gpt_4o_mini_complete,  
             )
 
@@ -148,16 +151,20 @@ def create_graphdb(pages: list, doc_name: str, doc_title: str, doc_category: str
 
             save_hash_info(hash_text, doc_name, doc_title, doc_category, text_to_insert)
 
+            yield f"Création du visuel du graphe de connaissances"
+            build_knowledge_graph_vis(hash_text)
+
             graphrag_pipeline_args[f"rag_{doc_category}"]=rag
+            
             yield {"pipeline_args": graphrag_pipeline_args[f"rag_{doc_category}"]}
 
 def load_existing_graphdb(hash, doc_category):
-    # check existence du dossier corresondant au hash    
-    
-    if os.path.exists(f"{WORKING_DIR}{hash}")==False:
+    # check existence du dossier corresondant au hash        
+    if os.path.exists(f"{WORKING_DIR}/{hash}")==False:
         yield "Aucune base graph trouvée"
         return
 
+    graphrag_pipeline_args[f"hash"]=hash
 
     yield f"""
         ----------------
@@ -165,9 +172,115 @@ def load_existing_graphdb(hash, doc_category):
         Chargement de la base Graph RAG
     """
     rag = PathRAG(
-        working_dir=f'{WORKING_DIR}{hash}',
+        working_dir=f'{WORKING_DIR}/{hash}',
         llm_model_func=gpt_4o_mini_complete,  
     )
     yield "**Graph RAG chargé**"
     graphrag_pipeline_args[f"rag_{doc_category}"]=rag
     yield {"pipeline_args": graphrag_pipeline_args[f"rag_{doc_category}"]}
+
+
+def build_knowledge_graph_vis(hash):
+    
+    # Load the GraphML file
+    graphStore_path=WORKING_DIR/ f'{hash}/graph_chunk_entity_relation.graphml'
+    G = nx.read_graphml(graphStore_path)
+    # Create a Pyvis network
+    net = Network(notebook=True, height='1080px', width='100%', bgcolor='white', font_color='black', cdn_resources='in_line')
+
+    # Convert NetworkX graph to Pyvis network
+    net.from_nx(G)
+
+
+    tableau_colors = [
+        "#4E79A7",  # Blue
+        "#F28E2B",  # Orange
+        "#E15759",  # Red
+        "#76B7B2",  # Teal
+        "#59A14F",  # Green
+        "#EDC949",  # Yellow
+        "#AF7AA1",  # Purple
+        "#FF9DA7",  # Pink
+        "#9C755F",  # Brown
+        #"#BAB0AC",  # Gray
+        "#8CD17D",  # Light Green
+        "#F1CE63",  # Light Yellow
+        "#B0AFC3",  # Lavender
+        "#FFBE7D",  # Peach
+        "#D3D3D3"   # Light Gray
+    ]
+
+    # Define color mapping for node groups
+    color_mapping = {}
+    entity_types_set=set(n["entity_type"] for n in net.nodes)
+    for entity in entity_types_set:
+        if entity=="UNKNOWN":
+            color_mapping[entity]= "#BAB0AC"#gray
+        elif entity!="UNKNOWN" and len(tableau_colors)>0:
+            color_mapping[entity]= tableau_colors.pop()
+
+
+    # Node customization with proper checks for attributes
+    for node in net.nodes:#[:50]:
+
+        # Example: Set node size based on degree
+        node['size'] = G.degree[node['id']] * 2
+
+        # Set node color based on group (if available)
+        node['color'] = color_mapping[node['entity_type']]
+        
+        # Add hover information (safely accessing attributes)
+        descr=node["description"].split("<SEP>")[0]
+        descr=descr+" ..." if len(descr)>100 else descr
+        node_info = f"Node: {node.get('label')}\nNode type: {node['entity_type']} \nDescr: {descr}"
+        if 'group' in node:
+            node_info += f"<br>Group: {node['group']}"
+        node['title'] = node_info
+
+    # Edge customization
+    for edge in net.edges:
+        # Disable arrows
+        edge['arrows'] = 'to' if False else None
+        
+        # Reduce edge width
+        edge['width'] = 1
+
+    # Physics settings for better layout
+    net.physics = True
+    net.options = {
+        "physics": {
+            "enabled": True,
+            "stabilization": {"iterations": 1000},
+            "barnesHut": {"gravitationalConstant": -8000, "springLength": 200}
+        }
+    }
+
+    # Save and display the network    
+    graphVis_path=WORKING_DIR/ f'{hash}/knowledge_graph.html'
+    net.save_graph(graphVis_path)    
+
+
+def load_knowledgeGraph_vis():
+    if "hash" not in graphrag_pipeline_args:
+        yield "Veuillez charger un PP"
+        return
+    
+    hash= graphrag_pipeline_args[f"hash"]
+
+
+    # load existing hashes
+    file_path="graphrag_hashes.json"
+    
+    def load_hashes(file_path=file_path):
+        if os.path.exists(file_path):
+            with open(file_path, 'r') as f:
+                return json.load(f)
+        return {}
+    
+    print("load hashes")
+    yield "Chargement de l'historique de hashage Graph RAG"
+    exising_hashes=load_hashes()
+    doc_name=exising_hashes[hash]["Nom du doc"]
+    graphVis_path=WORKING_DIR/ f'{hash}/knowledge_graph.html'
+
+    yield (graphVis_path, doc_name)
