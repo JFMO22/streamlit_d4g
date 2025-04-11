@@ -8,21 +8,25 @@
 import hashlib
 from time import time as timing
 import os
-import os
+from pathlib import Path
 from PathRAG import PathRAG, QueryParam
 from PathRAG.llm import gpt_4o_mini_complete
 import json
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
-import dotenv
+# import dotenv
+
+# dotenv.load_dotenv(".env")
+
+# Get the directory of the current script (e.g., app.py)
+SCRIPT_DIR = Path(__file__).parent.resolve()
+
+
+WORKING_DIR = SCRIPT_DIR/"storage/graph_stores/"
 
 
 
-WORKING_DIR = "./storage/graph_stores/"
-
-
-dotenv.load_dotenv(".env")
 
 base_url="https://api.openai.com/v1"
 os.environ["OPENAI_API_BASE"]=base_url

@@ -2,11 +2,13 @@ import torch._classes
 import asyncio
 import nest_asyncio
 import streamlit as st
+from streamlit.components.v1 import iframe, components
 from rag_pipelines import process_new_doc, process_existing_doc, QA_pipeline, update_hybrid_rag_wrapper
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from io import StringIO
 import os
+from pathlib import Path
 import pandas as pd
 import json
 import types
@@ -39,8 +41,11 @@ torch._classes._Classes.__getattr__ = patched_getattr
 def load_pp_traces(doc_category: str):
     st.markdown(f"### Documents {doc_category.upper()} chargés:", unsafe_allow_html=True)
 
+    # Get the directory of the current script (e.g., app.py)
+    SCRIPT_DIR = Path(__file__).parent.resolve()
+
     # charger les hashes
-    files_paths=["hybridrag_hashes.json", "graphrag_hashes.json"]
+    files_paths=[SCRIPT_DIR/ "hybridrag_hashes.json", SCRIPT_DIR/"graphrag_hashes.json"]
     table=pd.DataFrame([])
 
     for file_path in files_paths:
@@ -188,6 +193,7 @@ def main():
         "Chargement asso": 2,
         "Remplir un AAP": 3, 
         "Paramètres": 4, 
+        "Graph de connaissances": 5
     }
     pages=[k for k in pages_map.keys()]
 
@@ -419,6 +425,22 @@ def main():
             feedback= update_hybrid_rag_wrapper(reranker, top_k=top_k_docs_selected)
             st.write(f"""{feedback}""")
                     
+
+    # ==============Graph
+    elif page == pages[5]:
+        # Read the local HTML file
+        # st.markdown("""
+        # <a href="./static/knowledge_graph.html" target="_blank">
+        #     <img src="./static/kg-icon.png" alt="Graphe de connaissances" title="Graphe de connaissances" style="width:100px; height:auto;">
+        # </a>
+        # """, unsafe_allow_html=True)
+        
+        
+        with open("static/knowledge_graph.html", "r", encoding="utf-8") as file:
+            html_content = file.read()
+        st.components.v1.html(html_content, height=800, scrolling=True)
+
+
 
 
 if __name__ == "__main__":

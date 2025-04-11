@@ -4,6 +4,7 @@ import streamlit as st
 import hashlib
 from time import time as timing
 import os
+from pathlib import Path
 import json
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
@@ -13,9 +14,9 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 import datetime
 
-import dotenv
+# import dotenv
 
-dotenv.load_dotenv(".env")
+# dotenv.load_dotenv(".env")
 
 
 
@@ -287,22 +288,22 @@ def build_hybrid_rag_pipeline(faiss_db, doc_category, split_docs, selected_retri
 
 def process_new_doc_as_hybrid(pages: list, doc_name: str, doc_category):
     """
-    #### Function definition:
-    Process a new document following these steps:
-    1. Generate a hash for the document and check its existence in a historical hash table \n
-    2. If the document does not exist: \n
-    * Cut it into chunks
-    * Store the chunks in a vector/graph database
-    * Save the database
-    * Update the hash table
-    3. Inform the user that the application is ready
+        #### Function definition:
+        Process a new document following these steps:
+        1. Generate a hash for the document and check its existence in a historical hash table \n
+        2. If the document does not exist: \n
+        * Cut it into chunks
+        * Store the chunks in a vector/graph database
+        * Save the database
+        * Update the hash table
+        3. Inform the user that the application is ready
 
-    #### Inputs :
-    **pages**: a list of pages in langchain Document format\n
-    **doc_name**: a meaningful name given by the user
+        #### Inputs :
+        **pages**: a list of pages in langchain Document format\n
+        **doc_name**: a meaningful name given by the user
 
-    #### Results:\n
-    A generator function containing return information in str format.
+        #### Results:\n
+        A generator function containing return information in str format.
 
     """
     
@@ -313,9 +314,11 @@ def process_new_doc_as_hybrid(pages: list, doc_name: str, doc_category):
         yield {"new_doc": False,"message": "Génération du hash"}
         hash_text=hashlib.sha256(text.encode('utf-8')).hexdigest()
 
-    
+            # Get the directory of the current script (e.g., app.py)
+        SCRIPT_DIR = Path(__file__).parent.resolve()
+
         # load existing hashes
-        file_path="hybridrag_hashes.json"
+        file_path=SCRIPT_DIR/"hybridrag_hashes.json"
         #@st.cache_data
         def load_hashes(file_path=file_path):
             if os.path.exists(file_path):
@@ -360,10 +363,16 @@ def process_new_doc_as_hybrid(pages: list, doc_name: str, doc_category):
 
     #======create DB
     def create_db(docs, text, id, embedding_model=embedding_model, doc_name=doc_name):
-        db_path = f"./storage/vector_stores/{id}/"        
+
+        # Get the directory of the current script (e.g., app.py)
+        SCRIPT_DIR = Path(__file__).parent.resolve()
+
+        # Construct absolute paths to your data files
+        VECTOR_STORE_PATH = SCRIPT_DIR / f"storage/vector_stores/{id}"
+        # db_path = f"./storage/vector_stores/{id}/"        
 
         faiss_db = FAISS.from_documents(docs, embedding_model,)   
-        faiss_db.save_local(db_path)
+        faiss_db.save_local(VECTOR_STORE_PATH)
 
 
 
@@ -371,7 +380,11 @@ def process_new_doc_as_hybrid(pages: list, doc_name: str, doc_category):
         
         #@st.cache_data
         def save_hash_trace_hashes(text, hash_title, doc_name, doc_category):
-            file_path="hybridrag_hashes.json"
+            # Get the directory of the current script (e.g., app.py)
+            SCRIPT_DIR = Path(__file__).parent.resolve()
+
+            
+            file_path=SCRIPT_DIR/"hybridrag_hashes.json"
             exising_hashes={}
             if os.path.exists(file_path):                
                 with open(file_path, 'r') as f:
@@ -493,14 +506,19 @@ def process_existing_doc_as_hybrid(hash: str, doc_name: str, doc_category: str):
 
     
     #=======load DB
+    # Get the directory of the current script (e.g., app.py)
+    SCRIPT_DIR = Path(__file__).parent.resolve()
+
+    # Construct absolute paths to your data files
+    VECTOR_STORE_PATH = SCRIPT_DIR / f"storage/vector_stores/{hash}"
 
     # 1. Spécifiez le chemin du dossier contenant les fichiers FAISS
-    db_path = f"./storage/vector_stores/{hash}/"
+    # db_path = f"./storage/vector_stores/{hash}/"
 
 
     # 2. Chargez la base FAISS
     faiss_db = FAISS.load_local(
-        folder_path=db_path,
+        folder_path=VECTOR_STORE_PATH,
         embeddings=embedding_model,
         allow_dangerous_deserialization=True
     )
