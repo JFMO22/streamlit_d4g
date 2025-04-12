@@ -20,7 +20,7 @@ from pyvis.network import Network
 
 import dotenv
 
-# dotenv.load_dotenv(".env")
+dotenv.load_dotenv(".env")
 
 # Get the directory of the current script (e.g., app.py)
 SCRIPT_DIR = Path(__file__).parent.resolve()

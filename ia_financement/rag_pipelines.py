@@ -24,7 +24,7 @@ import string
 import datetime
 import dotenv
 
-# dotenv.load_dotenv(".env")
+dotenv.load_dotenv(".env")
 
 
 pipeline_args={}
@@ -564,7 +564,7 @@ def QA_pipeline(queries: list, return_sources=True):
                     ("system", system),
                     (
                         "human",
-                        "Here is the initial text: \n\n {question} \n Perform a translation in {language}.",
+                        "Here is the initial text: \n\n {question} \n Perform a translation in {language}. Output only the final translation without any additional text or comment",
                     ),
                 ]
             )
@@ -668,9 +668,10 @@ def QA_pipeline(queries: list, return_sources=True):
         elif openORclose_question.type=="open":
             yield f"""
                 * Type de question: **ouvert**
-                * Document utilisé: **{doc_category.upper()}
+                * Document utilisé: **{doc_category.upper()}**
                 * RAG utilisé: **graph**
             """
+            enhanced_query=query_translator(enhanced_query, query_source_language.type)
             stream_resp= pipeline_args["graphrag_pipeline_pp"].query(enhanced_query, param=QueryParam(mode="hybrid", stream=True))
 
             yield {'question': q["question"], "response_stream": stream_resp, "pathrag_stream": True}

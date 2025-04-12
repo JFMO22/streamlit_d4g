@@ -227,19 +227,19 @@ def main():
 
 
     # page chargement de la PP
-    if page == pages[1]:
+    elif page == pages[1]:
         st.session_state["selected_page"]=page
       
         build_ui_pp_asso('pp')
 
 
-    if page == pages[2]:
+    elif page == pages[2]:
         st.session_state["selected_page"]=page
         build_ui_pp_asso('asso')
 
 
     # ===============Q/A AAP ou directe
-    if page == pages[3]:        
+    elif page == pages[3]:        
         
         #==========UI questions AAP==========        
         st.write("#### Charger un AAP")
@@ -269,7 +269,7 @@ def main():
         #=======================================
 
 
-        #=========paramètres en cours
+        #=========récupérer les paramètres reranker et top k docs à jour
 
         if "selected_reranker" in st.session_state and st.session_state["selected_reranker"]!="":
             with col_reranker_select:
@@ -287,7 +287,7 @@ def main():
 
 
 
-        #### rappel de la dernière Q/A 
+        #### rappel de la dernière Q/A traitée
         response_container = st.empty() 
         if "full_response" in st.session_state:         
             query_value=""
@@ -295,13 +295,13 @@ def main():
                 query_value=st.session_state["user_query"]
 
             # st.markdown(f"#### Réponse:\n", unsafe_allow_html=True)                                           
-            response_container.markdown(f"""
-                #### Question: 
-                {query_value}
-                \n
-                #### Réponse:
-                {st.session_state["full_response"]}
-            """, unsafe_allow_html=True)
+            QA_pair=f"""<h4>Question:</h4>
+            {query_value} 
+            <br><br>
+            <h4>Réponse:</h4>
+            {st.session_state["full_response"]}
+            """
+            response_container.markdown(QA_pair, unsafe_allow_html=True)
 
 
 
@@ -334,7 +334,7 @@ def main():
                         
 
                         st.markdown(f"#### Réponse:\n", unsafe_allow_html=True)                
-                        #response_container = st.empty()
+                        response_container = st.empty()
 
                         # diffusion PathRag
                         if "pathrag_stream" in resp:
@@ -430,15 +430,7 @@ def main():
 
     # ==============Graph
     elif page == pages[5]:
-        # Read the local HTML file
-        # st.markdown("""
-        # <a href="./static/knowledge_graph.html" target="_blank">
-        #     <img src="./static/kg-icon.png" alt="Graphe de connaissances" title="Graphe de connaissances" style="width:100px; height:auto;">
-        # </a>
-        # """, unsafe_allow_html=True)
-        
-        # Get the directory of the current script (e.g., app.py)
-        
+
         # cas où aucun PP n'est chargé
         
 
