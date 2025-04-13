@@ -349,10 +349,10 @@ def main():
     
     page=st.sidebar.radio("Aller vers", pages, key="sidebar", index=index_sommaire)
     
-    
+    SCRIPT_DIR = Path(__file__).parent.resolve()
     with st.sidebar:
-        st.image("SOS.png")
-        st.image("D4G.png")
+        st.image(SCRIPT_DIR/ "SOS.png")
+        st.image(SCRIPT_DIR/ "D4G.png")
         st.write("### Projet DataForGood")
         
 
