@@ -351,8 +351,16 @@ def main():
     
     SCRIPT_DIR = Path(__file__).parent.resolve()
     with st.sidebar:
-        st.image(SCRIPT_DIR/ "SOS.png")
-        st.image(SCRIPT_DIR/ "D4G.png")
+        file_path1=SCRIPT_DIR/ "SOS.png"
+        file_path2=SCRIPT_DIR/ "D4G.png"
+
+        st.write(file_path1)
+        st.write(file_path2)
+        try:
+            st.image(file_path1)
+            st.image(file_path2)
+        except Exception as e:
+            st.write(e)
         st.write("### Projet DataForGood")
         
 
