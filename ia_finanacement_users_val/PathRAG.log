@@ -1,0 +1,505 @@
+2025-04-13 14:29:36,431 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 14:29:36,435 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 14:29:36,438 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 14:29:36,444 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 14:29:36,487 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 14:40:33,861 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 14:40:33,864 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 14:40:33,867 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 14:40:33,872 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 14:40:33,920 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 14:49:53,000 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 14:49:53,003 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 14:49:53,007 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 14:49:53,012 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 14:49:53,047 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 14:50:01,924 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 14:50:01,927 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 14:50:01,929 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 14:50:01,932 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 14:50:01,964 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 14:50:40,909 - PathRAG - INFO - Creating a new event loop in main thread.
+2025-04-13 14:50:44,053 - PathRAG - INFO - kw_prompt result:
+2025-04-13 14:50:51,623 - PathRAG - INFO - Local query uses 40 entites, 5 relations, 3 text units
+2025-04-13 14:50:52,724 - PathRAG - INFO - Global query uses 50 entites, 40 relations, 3 text units
+2025-04-13 15:01:24,431 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 15:01:24,433 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 15:01:24,435 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 15:01:24,437 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 15:01:24,474 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 15:07:33,090 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 15:07:33,094 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 15:07:33,097 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 15:07:33,101 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 15:07:33,135 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 15:08:56,292 - PathRAG - INFO - Creating a new event loop in main thread.
+2025-04-13 15:08:59,494 - PathRAG - INFO - kw_prompt result:
+2025-04-13 15:09:04,329 - PathRAG - INFO - Local query uses 40 entites, 4 relations, 3 text units
+2025-04-13 15:09:04,851 - PathRAG - INFO - Global query uses 46 entites, 40 relations, 3 text units
+2025-04-13 15:16:14,115 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 15:16:14,120 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 15:16:14,124 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 15:16:14,127 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 15:16:14,160 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 15:19:36,807 - PathRAG - INFO - Creating a new event loop in main thread.
+2025-04-13 15:19:40,029 - PathRAG - INFO - kw_prompt result:
+2025-04-13 15:19:43,859 - PathRAG - INFO - Local query uses 40 entites, 5 relations, 3 text units
+2025-04-13 15:19:44,752 - PathRAG - INFO - Global query uses 44 entites, 40 relations, 3 text units
+2025-04-13 16:56:14,332 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 16:56:14,335 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 16:56:14,338 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 16:56:14,341 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 16:56:14,381 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 16:57:37,677 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 16:57:37,680 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 16:57:37,682 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 16:57:37,689 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 16:57:37,723 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 17:05:03,071 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 17:05:03,074 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 17:05:03,077 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 17:05:03,081 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 17:05:03,118 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 17:11:52,086 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 17:11:52,089 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 17:11:52,092 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 17:11:52,094 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 17:11:52,139 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 17:19:22,128 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 17:19:22,132 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 17:19:22,134 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 17:19:22,137 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 17:19:22,169 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 17:20:51,696 - PathRAG - INFO - kw_prompt result:
+2025-04-13 17:20:54,790 - PathRAG - INFO - Local query uses 40 entites, 7 relations, 3 text units
+2025-04-13 17:20:55,709 - PathRAG - INFO - Global query uses 50 entites, 40 relations, 3 text units
+2025-04-13 17:27:19,666 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 17:27:19,669 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 17:27:19,672 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 17:27:19,675 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 17:27:19,712 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 17:28:44,775 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 17:28:44,778 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 17:28:44,781 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 17:28:44,784 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 17:28:44,824 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 17:37:21,519 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 17:37:21,525 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 17:37:21,527 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 17:37:21,530 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 17:37:21,584 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 17:38:31,692 - PathRAG - INFO - kw_prompt result:
+2025-04-13 17:38:36,545 - PathRAG - INFO - Local query uses 40 entites, 4 relations, 3 text units
+2025-04-13 17:38:37,554 - PathRAG - INFO - Global query uses 42 entites, 40 relations, 3 text units
+2025-04-13 17:41:05,261 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 17:41:05,263 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 17:41:05,265 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 17:41:05,267 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 17:41:05,303 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 17:44:04,022 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 17:44:04,026 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 17:44:04,028 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 17:44:04,030 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 17:44:04,061 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 17:45:57,601 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 17:45:57,604 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 17:45:57,608 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 17:45:57,615 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 17:45:57,649 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 17:49:13,133 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 17:49:13,136 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 17:49:13,139 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 17:49:13,141 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 17:49:13,175 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 17:49:54,313 - PathRAG - INFO - kw_prompt result:
+2025-04-13 17:49:58,805 - PathRAG - INFO - Local query uses 40 entites, 4 relations, 3 text units
+2025-04-13 17:49:59,503 - PathRAG - INFO - Global query uses 47 entites, 40 relations, 3 text units
+2025-04-13 18:20:49,999 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 18:20:50,002 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 18:20:50,004 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 18:20:50,008 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 18:20:50,041 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 18:21:57,994 - PathRAG - INFO - kw_prompt result:
+2025-04-13 18:22:03,152 - PathRAG - INFO - Local query uses 40 entites, 4 relations, 3 text units
+2025-04-13 18:22:03,963 - PathRAG - INFO - Global query uses 46 entites, 40 relations, 3 text units
+2025-04-13 18:34:09,779 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 18:34:09,783 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 18:34:09,787 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 18:34:09,792 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 18:34:09,834 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 18:40:46,301 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 18:40:46,304 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 18:40:46,307 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 18:40:46,309 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 18:40:46,351 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 18:41:20,093 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 18:41:20,097 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 18:41:20,100 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 18:41:20,102 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 18:41:20,140 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 18:46:30,273 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 18:46:30,276 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 18:46:30,279 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 18:46:30,281 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 18:46:30,318 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/marine/13_ia_financement/notebooks/Streamlit Vf/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 18:48:43,552 - PathRAG - INFO - kw_prompt result:
+2025-04-13 18:48:49,343 - PathRAG - INFO - Local query uses 40 entites, 4 relations, 3 text units
+2025-04-13 18:48:50,144 - PathRAG - INFO - Global query uses 45 entites, 40 relations, 3 text units
+2025-04-13 19:11:09,853 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/streamlit_d4g/ia_finanacement_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-13 19:11:09,855 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-13 19:11:09,858 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-13 19:11:09,860 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-13 19:11:09,898 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/streamlit_d4g/ia_finanacement_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-13 19:17:49,499 - PathRAG - INFO - kw_prompt result:
+2025-04-13 19:17:54,362 - PathRAG - INFO - Local query uses 40 entites, 4 relations, 3 text units
+2025-04-13 19:17:55,157 - PathRAG - INFO - Global query uses 50 entites, 40 relations, 3 text units
+2025-04-14 14:20:51,287 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-14 14:20:51,288 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 14:20:51,290 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 14:20:51,293 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-14 14:20:51,310 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-14 14:27:14,547 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-14 14:27:14,549 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 14:27:14,550 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 14:27:14,552 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-14 14:27:14,569 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-14 14:27:37,372 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-14 14:27:37,373 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 14:27:37,374 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 14:27:37,375 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-14 14:27:37,408 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-14 14:27:46,764 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-14 14:27:46,765 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 14:27:46,767 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 14:27:46,768 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-14 14:27:46,791 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-14 14:27:57,955 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 14:27:57,957 - PathRAG - INFO - Creating working directory /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 14:27:57,958 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 14:27:57,960 - PathRAG - INFO - Load KV full_docs with 0 data
+2025-04-14 14:27:57,961 - PathRAG - INFO - Load KV text_chunks with 0 data
+2025-04-14 14:27:57,966 - PathRAG - INFO - [New Docs] inserting 1 docs
+2025-04-14 14:27:59,763 - PathRAG - INFO - [New Chunks] inserting 3 chunks
+2025-04-14 14:27:59,764 - PathRAG - INFO - Inserting 3 vectors to chunks
+2025-04-14 14:28:00,873 - PathRAG - INFO - [Entity Extraction]...
+2025-04-14 14:29:00,950 - PathRAG - INFO - Inserting entities into storage...
+2025-04-14 14:29:00,965 - PathRAG - INFO - Inserting relationships into storage...
+2025-04-14 14:29:00,972 - PathRAG - INFO - Inserting 46 vectors to entities
+2025-04-14 14:29:03,299 - PathRAG - INFO - Inserting 26 vectors to relationships
+2025-04-14 14:29:06,690 - PathRAG - INFO - Writing graph with 46 nodes, 26 edges
+2025-04-14 14:31:11,526 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 14:31:11,527 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 14:31:11,528 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 14:31:11,529 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-14 14:31:11,532 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-14 14:35:06,058 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 14:35:06,060 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 14:35:06,061 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 14:35:06,063 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-14 14:35:06,074 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-14 14:35:36,966 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 14:35:36,969 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 14:35:36,971 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 14:35:36,974 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-14 14:35:36,982 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-14 14:36:25,226 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 14:36:25,229 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 14:36:25,230 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 14:36:25,232 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-14 14:36:25,238 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-14 14:42:52,106 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 14:42:52,108 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 14:42:52,111 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 14:42:52,113 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-14 14:42:52,120 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-14 14:48:43,756 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 14:48:43,758 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 14:48:43,760 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 14:48:43,762 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-14 14:48:43,769 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-14 14:48:55,260 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 14:48:55,262 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 14:48:55,265 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 14:48:55,267 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-14 14:48:55,274 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-14 14:53:59,770 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 14:53:59,772 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 14:53:59,774 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 14:53:59,777 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-14 14:53:59,784 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-14 14:54:07,960 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 14:54:07,962 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 14:54:07,964 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 14:54:07,966 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-14 14:54:07,972 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-14 14:54:40,456 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-14 14:54:40,458 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 14:54:40,460 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 14:54:40,463 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-14 14:54:40,495 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-14 14:55:08,818 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-14 14:55:08,820 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 14:55:08,824 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 14:55:08,829 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-14 14:55:08,867 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-14 14:58:27,712 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 14:58:27,716 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 14:58:27,719 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 14:58:27,725 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-14 14:58:27,734 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-14 14:58:34,964 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 14:58:34,966 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 14:58:34,968 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 14:58:34,971 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-14 14:58:34,977 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-14 14:58:37,690 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-14 14:58:37,693 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 14:58:37,696 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 14:58:37,699 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-14 14:58:37,730 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-14 15:15:02,811 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 15:15:02,814 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 15:15:02,816 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 15:15:02,817 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-14 15:15:02,825 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-14 15:15:08,927 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 15:15:08,933 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 15:15:08,935 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 15:15:08,938 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-14 15:15:08,944 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-14 15:43:15,992 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 15:43:15,994 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 15:43:15,996 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 15:43:15,998 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-14 15:43:16,005 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-14 15:46:35,754 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 15:46:35,759 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 15:46:35,761 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 15:46:35,766 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-14 15:46:35,775 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-14 15:47:08,058 - PathRAG - INFO - kw_prompt result:
+2025-04-14 15:47:10,327 - PathRAG - INFO - Local query uses 34 entites, 15 relations, 3 text units
+2025-04-14 15:47:11,381 - PathRAG - INFO - Global query uses 23 entites, 24 relations, 3 text units
+2025-04-14 15:50:31,496 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 15:50:31,499 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 15:50:31,502 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 15:50:31,504 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-14 15:50:31,522 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-14 15:59:44,703 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 15:59:44,706 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 15:59:44,709 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 15:59:44,711 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-14 15:59:44,722 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-14 16:01:44,131 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-14 16:01:44,134 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-14 16:01:44,137 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-14 16:01:44,139 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-14 16:01:44,148 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-14 16:02:22,526 - PathRAG - INFO - kw_prompt result:
+2025-04-15 16:28:28,582 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-15 16:28:28,585 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-15 16:28:28,588 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-15 16:28:28,590 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-15 16:28:28,607 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-15 18:29:30,999 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-15 18:29:31,002 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-15 18:29:31,004 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-15 18:29:31,006 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-15 18:29:31,024 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-15 18:30:57,151 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-15 18:30:57,154 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-15 18:30:57,156 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-15 18:30:57,159 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-15 18:30:57,168 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-15 18:31:13,042 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-15 18:31:13,045 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-15 18:31:13,047 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-15 18:31:13,049 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-15 18:31:13,057 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-15 18:31:22,047 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-15 18:31:22,049 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-15 18:31:22,051 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-15 18:31:22,054 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-15 18:31:22,087 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-15 20:15:18,343 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-15 20:15:18,346 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-15 20:15:18,349 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-15 20:15:18,351 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-15 20:15:18,386 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-15 20:16:39,720 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-15 20:16:39,725 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-15 20:16:39,727 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-15 20:16:39,729 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-15 20:16:39,736 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-15 20:17:09,285 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-15 20:17:09,288 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-15 20:17:09,291 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-15 20:17:09,294 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-15 20:17:09,333 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-15 20:19:38,534 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-15 20:19:38,538 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-15 20:19:38,540 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-15 20:19:38,543 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-15 20:19:38,581 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-15 20:21:01,571 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-15 20:21:01,573 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-15 20:21:01,576 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-15 20:21:01,579 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-15 20:21:01,614 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-15 20:21:43,256 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-15 20:21:43,259 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-15 20:21:43,262 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-15 20:21:43,265 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-15 20:21:43,306 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-15 20:33:40,705 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-15 20:33:40,707 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-15 20:33:40,709 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-15 20:33:40,710 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-15 20:33:40,716 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-15 20:39:09,409 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-15 20:39:09,415 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-15 20:39:09,417 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-15 20:39:09,419 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-15 20:39:09,426 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-15 20:40:12,643 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-15 20:40:12,650 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-15 20:40:12,654 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-15 20:40:12,658 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-15 20:40:12,692 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-15 20:41:23,516 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-15 20:41:23,519 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-15 20:41:23,521 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-15 20:41:23,523 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-15 20:41:23,530 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-16 15:26:45,208 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/code/streamlit_local/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-04-16 15:26:45,214 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-16 15:26:45,217 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-16 15:26:45,221 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-04-16 15:26:45,265 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/code/streamlit_local/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-04-17 20:08:27,216 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/code/streamlit_local/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-04-17 20:08:27,220 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-04-17 20:08:27,223 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-04-17 20:08:27,225 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-04-17 20:08:27,238 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/code/streamlit_local/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-04-17 20:11:44,070 - PathRAG - INFO - kw_prompt result:
+2025-04-17 20:11:47,486 - PathRAG - INFO - Local query uses 13 entites, 2 relations, 3 text units
+2025-04-17 20:11:48,344 - PathRAG - INFO - Global query uses 24 entites, 23 relations, 3 text units
+2025-04-17 20:14:19,221 - PathRAG - INFO - kw_prompt result:
+2025-04-17 20:14:21,194 - PathRAG - INFO - Local query uses 13 entites, 5 relations, 3 text units
+2025-04-17 20:14:22,200 - PathRAG - INFO - Global query uses 24 entites, 25 relations, 3 text units
+2025-05-03 17:12:58,905 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-05-03 17:12:58,908 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-05-03 17:12:58,910 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-05-03 17:12:58,912 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-05-03 17:12:58,924 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-05-03 17:13:05,346 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-05-03 17:13:05,349 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-05-03 17:13:05,352 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-05-03 17:13:05,356 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-05-03 17:13:05,397 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-05-03 17:14:27,205 - PathRAG - INFO - kw_prompt result:
+2025-05-03 17:14:33,628 - PathRAG - INFO - Local query uses 40 entites, 4 relations, 3 text units
+2025-05-03 17:14:34,563 - PathRAG - INFO - Global query uses 49 entites, 40 relations, 3 text units
+2025-05-03 17:38:47,677 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-05-03 17:38:47,680 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-05-03 17:38:47,682 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-05-03 17:38:47,684 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-05-03 17:38:47,694 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-05-03 17:38:55,979 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-05-03 17:38:55,981 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-05-03 17:38:55,984 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-05-03 17:38:55,986 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-05-03 17:38:56,023 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-05-03 17:39:16,291 - PathRAG - INFO - kw_prompt result:
+2025-05-03 17:39:20,182 - PathRAG - INFO - Local query uses 40 entites, 4 relations, 3 text units
+2025-05-03 17:39:21,129 - PathRAG - INFO - Global query uses 46 entites, 40 relations, 3 text units
+2025-05-03 17:56:50,148 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-05-03 17:56:50,151 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-05-03 17:56:50,154 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-05-03 17:56:50,159 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-05-03 17:56:50,193 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-05-03 17:57:09,353 - PathRAG - INFO - kw_prompt result:
+2025-05-03 17:57:12,783 - PathRAG - INFO - Local query uses 40 entites, 5 relations, 3 text units
+2025-05-03 17:57:13,742 - PathRAG - INFO - Global query uses 47 entites, 40 relations, 3 text units
+2025-05-03 17:59:30,637 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-05-03 17:59:30,639 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-05-03 17:59:30,641 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-05-03 17:59:30,643 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-05-03 17:59:30,676 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-05-03 18:03:29,753 - PathRAG - INFO - kw_prompt result:
+2025-05-03 18:03:31,622 - PathRAG - INFO - Local query uses 40 entites, 7 relations, 3 text units
+2025-05-03 18:03:32,634 - PathRAG - INFO - Global query uses 41 entites, 40 relations, 3 text units
+2025-05-03 18:04:52,156 - PathRAG - INFO - kw_prompt result:
+2025-05-03 18:04:55,971 - PathRAG - INFO - Local query uses 40 entites, 4 relations, 3 text units
+2025-05-03 18:04:56,592 - PathRAG - INFO - Global query uses 40 entites, 40 relations, 3 text units
+2025-05-03 18:06:36,947 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-05-03 18:06:36,951 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-05-03 18:06:36,954 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-05-03 18:06:36,958 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-05-03 18:06:36,990 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-05-03 18:07:49,939 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e
+2025-05-03 18:07:49,942 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-05-03 18:07:49,944 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-05-03 18:07:49,946 - PathRAG - INFO - Load KV text_chunks with 3 data
+2025-05-03 18:07:49,955 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/0ff4b619239833b8bc969d167fc0ca42dedcfac840772fb0fb107b161669fb3e/graph_chunk_entity_relation.graphml with 46 nodes, 26 edges
+2025-05-03 18:09:54,491 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-05-03 18:09:54,496 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-05-03 18:09:54,499 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-05-03 18:09:54,502 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-05-03 18:09:54,536 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-05-03 18:12:56,367 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-05-03 18:12:56,370 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-05-03 18:12:56,373 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-05-03 18:12:56,377 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-05-03 18:12:56,413 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-05-03 18:14:48,996 - PathRAG - INFO - kw_prompt result:
+2025-05-03 18:14:53,871 - PathRAG - INFO - Local query uses 40 entites, 4 relations, 3 text units
+2025-05-03 18:14:54,429 - PathRAG - INFO - Global query uses 46 entites, 40 relations, 3 text units
+2025-05-03 18:15:52,173 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-05-03 18:15:52,176 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-05-03 18:15:52,178 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-05-03 18:15:52,183 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-05-03 18:15:52,218 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-05-03 18:16:40,491 - PathRAG - INFO - kw_prompt result:
+2025-05-03 18:16:43,428 - PathRAG - INFO - Local query uses 40 entites, 4 relations, 3 text units
+2025-05-03 18:16:44,082 - PathRAG - INFO - Global query uses 47 entites, 40 relations, 3 text units
+2025-05-03 18:19:40,068 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-05-03 18:19:40,072 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-05-03 18:19:40,074 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-05-03 18:19:40,077 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-05-03 18:19:40,115 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-05-03 18:20:25,951 - PathRAG - INFO - kw_prompt result:
+2025-05-03 18:20:31,367 - PathRAG - INFO - Local query uses 40 entites, 4 relations, 3 text units
+2025-05-03 18:20:31,933 - PathRAG - INFO - Global query uses 50 entites, 40 relations, 3 text units
+2025-05-03 18:23:41,859 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-05-03 18:23:41,862 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-05-03 18:23:41,864 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-05-03 18:23:41,868 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-05-03 18:23:41,901 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-05-03 18:24:40,947 - PathRAG - INFO - kw_prompt result:
+2025-05-03 18:24:44,931 - PathRAG - INFO - Local query uses 40 entites, 5 relations, 3 text units
+2025-05-03 18:24:45,806 - PathRAG - INFO - Global query uses 49 entites, 40 relations, 3 text units
+2025-05-03 18:27:06,345 - PathRAG - INFO - kw_prompt result:
+2025-05-03 18:27:10,669 - PathRAG - INFO - Local query uses 40 entites, 4 relations, 3 text units
+2025-05-03 18:27:11,850 - PathRAG - INFO - Global query uses 46 entites, 40 relations, 3 text units
+2025-05-03 18:30:01,961 - PathRAG - INFO - kw_prompt result:
+2025-05-03 18:30:06,194 - PathRAG - INFO - Local query uses 40 entites, 5 relations, 3 text units
+2025-05-03 18:30:06,821 - PathRAG - INFO - Global query uses 47 entites, 40 relations, 3 text units
+2025-05-03 18:34:41,034 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-05-03 18:34:41,037 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-05-03 18:34:41,040 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-05-03 18:34:41,046 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-05-03 18:34:41,080 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-05-03 18:36:34,448 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-05-03 18:36:34,450 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-05-03 18:36:34,452 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-05-03 18:36:34,454 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-05-03 18:36:34,484 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
+2025-05-03 18:38:05,670 - PathRAG - INFO - kw_prompt result:
+2025-05-03 18:38:12,132 - PathRAG - INFO - Local query uses 40 entites, 5 relations, 3 text units
+2025-05-03 18:38:12,881 - PathRAG - INFO - Global query uses 45 entites, 40 relations, 3 text units
+2025-05-03 18:41:23,429 - PathRAG - INFO - Logger initialized for working directory: /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783
+2025-05-03 18:41:23,432 - PathRAG - INFO - Load KV llm_response_cache with 0 data
+2025-05-03 18:41:23,435 - PathRAG - INFO - Load KV full_docs with 1 data
+2025-05-03 18:41:23,437 - PathRAG - INFO - Load KV text_chunks with 22 data
+2025-05-03 18:41:23,468 - PathRAG - INFO - Loaded graph from /home/chougar/Documents/GitHub/DataForGood/IA financement/jf/13_ia_financement/streamlit_users/storage/graph_stores/90ca2c8e0d3b493c088d866aa16c14b0e74020d735dfa22f926a4ba938994783/graph_chunk_entity_relation.graphml with 315 nodes, 197 edges
