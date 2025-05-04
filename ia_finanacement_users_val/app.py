@@ -1,8 +1,6 @@
 import streamlit as st
 from rag_pipelines import process_new_doc, process_existing_doc, QA_pipeline, update_hybrid_rag_wrapper
 from graphrag_retriever import load_knowledgeGraph_vis
-from langchain_community.document_loaders import PyPDFLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
 from io import StringIO
 import asyncio
 import nest_asyncio
@@ -11,18 +9,8 @@ import pandas as pd
 import json
 from read_answer_aap import Read_Questions_in_docx, Write_Answers_in_docx
 from pathlib import Path
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_openai import ChatOpenAI
-from langchain_core.output_parsers import StrOutputParser
+import traceback
 
-import streamlit as st
-from rag_pipelines import process_new_doc, process_existing_doc, QA_pipeline
-from langchain_community.document_loaders import PyPDFLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from io import StringIO
-import os
-import pandas as pd
-import json
 
 # pour télécharger l'AAP en docx
 from docx import Document
@@ -513,54 +501,6 @@ def main():
         st.markdown("----", unsafe_allow_html=True)
 
 
-        #====old
-        # st.write("#### Charger un AAP")
-        # uploaded_aap = st.file_uploader(
-        #     label="Charger un AAP", 
-        #     type=["docx", "json"], 
-        #     accept_multiple_files=False, 
-        #     key="uploader_aap"
-        # )
-        # st.session_state["uploaded_aap"] = uploaded_aap
-
-        # btn_process_aap=st.button(label="Traiter", key="process_aap")
-
-        # st.markdown("------------", unsafe_allow_html=True)
-
-        # st.write("#### Saisie manuelle")
-        # user_query = st.text_input(label="Votre question", placeholder="")
-        # user_query_size = st.text_input(label="Taille de réponse souhaitée", placeholder="") # Ajout JF pour prise en compte size
-
-        # col_query1, col_query2, col_query3=st.columns(3, gap="small", vertical_alignment="center", border=False)
-
-        # with col_query1:
-        #     btn_process_user_query=st.button(label="Chercher", key="process_user_query",use_container_width=False)
-        # with col_query2:
-        #     btn_display_sources=st.checkbox(label="Afficher les sources", key="display_sources", )
-        # with col_query3:
-        #     btn_display_metadata=st.checkbox(label="Afficher les méta données", key="display_metadata",)
-
-
-
-        # # =============afficher les paramètres du rag hybride
-        # buf1, buf2,  col_reranker_select, col_top_k=st.columns([1, 1, 1, 1])
-
-        # st.markdown("#### Paramètres du RAG hybride")
-        # if "selected_reranker" in st.session_state and st.session_state["selected_reranker"]!="":
-        #     with col_reranker_select:
-        #         st.markdown(f"""* Used reranker: **{st.session_state["selected_reranker"]}**""", unsafe_allow_html=True)
-        # else:
-        #     with col_reranker_select:
-        #         st.markdown(f"* Used reranker: **specialized**", unsafe_allow_html=True)
-
-        # if "top_k_docs_user" in st.session_state:
-        #     with col_top_k:
-        #         st.markdown(f"* Used top_k documents: **{st.session_state['top_k_docs_user']}**", unsafe_allow_html=True)
-        # else:
-        #     with col_top_k:
-        #         st.markdown(f"* Used top_k documents: **{10}**", unsafe_allow_html=True)
-
-
         queries = []
 
         # === Saisie manuelle ===
@@ -570,90 +510,93 @@ def main():
 
         # === Traitement AAP (json/docx) ===
         elif btn_process_aap and uploaded_aap is not None:
-            st.session_state["trigger_aap"] = False  # reset
+            try:
+                st.session_state["trigger_aap"] = False  # reset
 
-            if uploaded_aap.name.endswith(".docx"):
-                st.info("📄 Traitement automatique du fichier AAP...")
+                if uploaded_aap.name.endswith(".docx"):
+                    st.info("📄 Traitement automatique du fichier AAP...")
 
-                list_of_SizeWords_OK = [
-                    " MAX", " MIN", " CARACT", " CHARACT", " LIGNE", " LINE", " SIGN", " PAGE",
-                    " PAS EXC", " NOT EXCEED", " MOTS", " WORDS"
-                ]
-                list_of_SizeWords_KO = [
-                    " SIGNAT", " MAXIMI", " MONTH", " MOIS", " ANS", " ANNé", " YEAR", " DAY", " JOUR",
-                    " DURéE", " DURATION", " IMPACT", " AMOUNT", " MONTANT"
-                ]
-                TagQStart = "<>"
-                TagQEnd = "</>"
+                    list_of_SizeWords_OK = [
+                        " MAX", " MIN", " CARACT", " CHARACT", " LIGNE", " LINE", " SIGN", " PAGE",
+                        " PAS EXC", " NOT EXCEED", " MOTS", " WORDS"
+                    ]
+                    list_of_SizeWords_KO = [
+                        " SIGNAT", " MAXIMI", " MONTH", " MOIS", " ANS", " ANNé", " YEAR", " DAY", " JOUR",
+                        " DURéE", " DURATION", " IMPACT", " AMOUNT", " MONTANT"
+                    ]
+                    TagQStart = "<>"
+                    TagQEnd = "</>"
 
-                # Construction du chemin absolu pour AAP, LOG et output_aap
-                source_aap = SCRIPT_DIR / "AAP/" # répertoire pour l'AAP source (non rempli)
-                hidden_log = SCRIPT_DIR / "LOG/" # répertoire pour l'AAP avec UID + le log file (pas accessible par l'utilisateur)
-                output_aap = SCRIPT_DIR / "output_aap/" # répertoire où sera placé l'AAP avec réponses
+                    # Construction du chemin absolu pour AAP, LOG et output_aap
+                    source_aap = SCRIPT_DIR / "AAP/" # répertoire pour l'AAP source (non rempli)
+                    hidden_log = SCRIPT_DIR / "LOG/" # répertoire pour l'AAP avec UID + le log file (pas accessible par l'utilisateur)
+                    output_aap = SCRIPT_DIR / "output_aap/" # répertoire où sera placé l'AAP avec réponses
 
-                # Nettoyage du nom de fichier
-                safe_name = Path(uploaded_aap.name).name  # Exemple : "PU_P01_AAP01 - sample.docx"
+                    # Nettoyage du nom de fichier
+                    safe_name = Path(uploaded_aap.name).name  # Exemple : "PU_P01_AAP01 - sample.docx"
 
-                # Construction du chemin complet avec chemin absolu
-                file_path_in = source_aap / safe_name 
-                file_path = output_aap / safe_name
+                    # Construction du chemin complet avec chemin absolu
+                    file_path_in = source_aap / safe_name 
+                    file_path = output_aap / safe_name
 
-                # Création du dossier parent si nécessaire
-                file_path_in.parent.mkdir(parents=True, exist_ok=True)
-                hidden_log.parent.mkdir(parents=True, exist_ok=True)
-                file_path.parent.mkdir(parents=True, exist_ok=True)
+                    # Création du dossier parent si nécessaire
+                    file_path_in.parent.mkdir(parents=True, exist_ok=True)
+                    hidden_log.parent.mkdir(parents=True, exist_ok=True)
+                    file_path.parent.mkdir(parents=True, exist_ok=True)
 
-                print(f"Chemin absolu : {file_path}")
-                print(f"Chemin absolu : {file_path_in}")
-                print(f"Chemin absolu : {hidden_log}")
+                    print(f"Chemin absolu : {file_path}")
+                    print(f"Chemin absolu : {file_path_in}")
+                    print(f"Chemin absolu : {hidden_log}")
 
-                # Suppression des anciens fichiers source (de source_aap) au cas où pas été supprimés dans traitements anciens
-                for old_file_path in file_path_in.glob('*.*'):
-                    try:
-                        old_file_path.unlink()
-                        print(f"Supprimé : {old_file_path}")
-                    except Exception as e:
-                        print(f"Erreur lors de la suppression de l'ancien fichier source {old_file_path} : {e}")
+                    # Suppression des anciens fichiers source (de source_aap) au cas où pas été supprimés dans traitements anciens
+                    for old_file_path in file_path_in.glob('*.*'):
+                        try:
+                            old_file_path.unlink()
+                            print(f"Supprimé : {old_file_path}")
+                        except Exception as e:
+                            print(f"Erreur lors de la suppression de l'ancien fichier source {old_file_path} : {e}")
 
-                # Suppression des anciens fichiers "avec UID" (de hidden_log) au cas où pas été supprimés dans traitements anciens
-                for old_file_path in hidden_log.glob('*.*'):
-                    try:
-                        old_file_path.unlink()
-                        print(f"Supprimé : {old_file_path}")
-                    except Exception as e:
-                        print(f"Erreur lors de la suppression de l'ancien fichier avec UID {old_file_path} : {e}")
+                    # Suppression des anciens fichiers "avec UID" (de hidden_log) au cas où pas été supprimés dans traitements anciens
+                    for old_file_path in hidden_log.glob('*.*'):
+                        try:
+                            old_file_path.unlink()
+                            print(f"Supprimé : {old_file_path}")
+                        except Exception as e:
+                            print(f"Erreur lors de la suppression de l'ancien fichier avec UID {old_file_path} : {e}")
 
-                # Suppression des anciens fichiers AAP avec réponses (de output_aap) au cas où pas été supprimés dans traitements anciens
-                for old_file_path in output_aap.glob('*.*'):
-                    try:
-                        old_file_path.unlink()
-                        print(f"Supprimé : {old_file_path}")
-                    except Exception as e:
-                        print(f"Erreur lors de la suppression de l'ancien fichier AAP avec réponses {old_file_path} : {e}")
+                    # Suppression des anciens fichiers AAP avec réponses (de output_aap) au cas où pas été supprimés dans traitements anciens
+                    for old_file_path in output_aap.glob('*.*'):
+                        try:
+                            old_file_path.unlink()
+                            print(f"Supprimé : {old_file_path}")
+                        except Exception as e:
+                            print(f"Erreur lors de la suppression de l'ancien fichier AAP avec réponses {old_file_path} : {e}")
 
 
-                #==========================                
+                    #==========================                
+                
+                    with open(file_path_in, "wb") as f:
+                        f.write(uploaded_aap.getbuffer())
 
-                with open(file_path_in, "wb") as f:
-                    f.write(uploaded_aap.getbuffer())
+                    #log_dir = os.path.join(outprut_aap, "logs")
+                    #os.makedirs(log_dir, exist_ok=True)
 
-                #log_dir = os.path.join(outprut_aap, "logs")
-                #os.makedirs(log_dir, exist_ok=True)
+                    with st.spinner("🔍 Extraction des questions en cours..."):
+                        extracted_questions = Read_Questions_in_docx(
+                            PathFolderSource=source_aap,
+                            PathForOutputsAndLogs=hidden_log,
+                            list_of_SizeWords_OK=list_of_SizeWords_OK,
+                            list_of_SizeWords_KO=list_of_SizeWords_KO,
+                            TagQStart=TagQStart,
+                            TagQEnd=TagQEnd
+                        )
 
-                with st.spinner("🔍 Extraction des questions en cours..."):
-                    extracted_questions = Read_Questions_in_docx(
-                        PathFolderSource=source_aap,
-                        PathForOutputsAndLogs=hidden_log,
-                        list_of_SizeWords_OK=list_of_SizeWords_OK,
-                        list_of_SizeWords_KO=list_of_SizeWords_KO,
-                        TagQStart=TagQStart,
-                        TagQEnd=TagQEnd
-                    )
-
-                st.success("✅ Extraction terminée")
-                st.write(f"Nombre de questions détectées : {len(extracted_questions)}")
-                queries = extracted_questions
-
+                    st.success("✅ Extraction terminée")
+                    st.write(f"Nombre de questions détectées : {len(extracted_questions)}")
+                    queries = extracted_questions
+            except Exception as e:
+                print(e)
+                print(traceback.format_exc())
 
         #### rappel de la dernière Q/A traitée
         response_container = st.empty() 
